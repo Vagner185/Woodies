@@ -10,6 +10,7 @@ html {
 body {
   background: #FFFFFF;
   font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
 }
 
 img {
@@ -37,4 +38,93 @@ a {
     "content content content"
     "footer footer footer"
   ;
+}
+
+/* HEADER */
+
+.header {
+  grid-area: header;
+  padding: 3.0rem 3.0rem 3.0rem 3.0rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 3.3rem;
+  font-weight: 700;
+  color: #3E3F43;
+  letter-spacing: 0.25em;
+  margin-left: 5.0rem;
+}
+
+.logo img {
+  min-width: 30px;
+}
+
+.logo div + div {
+  margin-left: 10px;
+}
+
+.menu {
+  z-index: 1;
+}
+
+.menu ul { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu li + li {
+  margin-left: 4.0rem;
+}
+
+.menu .a {
+  display: block;
+  padding: 1.4rem;
+  font-size: 2.5rem;
+  color: rgba(34, 34, 34, 0.75);
+}
+
+.sign-up {
+  display: block;
+  padding: 1.4rem 4.7rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #3E3F43;
+  border: solid 1px #3E3F43;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.menu .a:hover {
+  color: #DAA520;
+}
+
+.div-btn {
+  display: none;
+}
+
+.btn {
+  z-index: 1;
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  font-size: 4.0rem;
+  top: 3.0rem;
+  right: 3.0rem;
+  display: flex;
+  color: #DAA520;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 15px ;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.btn-activ {  /* Class js */
+  color: #FFFFFF;
+  background: #DAA520;
 }
