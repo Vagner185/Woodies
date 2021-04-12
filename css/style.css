@@ -265,3 +265,35 @@ a {
   font-weight: 600;
   color: #000000;
 }
+
+.how-it-works-section {
+  text-align: center;
+}
+
+.how-to-custom {
+  max-width: 1500px;
+  display: flex;
+  margin: 10rem auto;
+  margin-bottom: 15rem;
+  justify-content: space-between;
+}
+
+.how-to-custom img{
+  width: 200px;
+}
+
+.how-to-custom div p {
+  margin-top: 20px;
+  font-size: 3.3rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.how-it-works-section a {
+  background: #DAA520;
+  color: #FFFFFF;
+  padding: 3.0rem 4.0rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
