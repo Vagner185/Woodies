@@ -184,3 +184,84 @@ a {
   background: #F9BDBD;
   border-bottom-left-radius: 120px;
 }
+
+.about-us-section {
+  margin-top: 50px;
+  margin: 20rem auto;
+}
+
+.div-h1 {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  font-size: 4.0rem;
+  font-weight: bold;
+  margin: 0 10rem;
+  color: #3E3F43;
+}
+
+.div-h1 div {
+  width: 98%;
+  height: 2px;
+  background: #000000;
+  margin-left: 1.0rem;
+}
+
+.div-h1 h1:nth-child(3) {
+  font-size: 9.0rem;
+  color: rgba(34, 34, 34, 0.2);
+}
+
+.img-text {
+  display: flex;
+  align-items: center;
+}
+
+.img-1 {
+  position: relative;
+  width: 1000px;
+  margin: 10rem 5rem 5rem 10rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.color-2 {
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  background: #F7DEA6;
+  left: 0;
+  border-radius: 0 13em 0 13em;
+}
+
+.img-2 {
+  width: 600px;
+}
+
+.salad {
+  width: 90%;
+  z-index: 1;
+}
+
+.text-p {
+  margin: 0 10rem;
+}
+
+.text-p p {
+  line-height: 5.5rem;
+}
+
+.text-p p + p {
+  padding-top: 2.0rem;
+}
+
+.text-p p:nth-child(1){
+  font-size: 4.5rem;
+  color: #3E3F43;
+}
+
+.text-p p:nth-child(2) {
+  font-size: 3.3rem;
+  font-weight: 600;
+  color: #000000;
+}
