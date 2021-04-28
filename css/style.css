@@ -348,3 +348,49 @@ a {
 .img-img + .img-img  {
   margin-left: 4.0rem;
 }
+
+.testimony-section {
+  margin: 0 30px 50px 30px;
+}
+
+.testimony {
+  max-width: 1850px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.testimony-p {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  max-height: 300px;
+  margin-right: 10px;
+  border: 2px solid #A8DCEC;
+  border-radius: 10px;
+}
+
+.testimony-p img {
+  max-width: 150px;
+  margin-bottom: 30px;
+}
+
+.testimony-p div div {
+  margin-top: 30px;
+}
+
+.testtimony-img {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.testtimony-img img {
+  width: 48%;
+}
+
+.testimony p {
+  font-size: 2.3rem;
+}
