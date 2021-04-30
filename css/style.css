@@ -31,13 +31,13 @@ a {
 }
 
 ::-webkit-scrollbar {  
-  width: 20px;
+  width: 2.0rem;
 }
 
 ::-webkit-scrollbar-thumb {   
   background: #CCC;
-  border-left: 4px solid #fff;
-  border-right: 4px solid #fff;
+  border-left: 0.4rem solid #fff;
+  border-right: 0.4rem solid #fff;
   border-radius: 9px;
   height: 250px;
 }
