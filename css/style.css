@@ -186,7 +186,6 @@ a {
 }
 
 .about-us-section {
-  margin-top: 50px;
   margin: 20rem auto;
 }
 
@@ -266,14 +265,14 @@ a {
 
 .how-it-works-section {
   text-align: center;
+  margin: 0 auto;
 }
 
 .how-to-custom {
-  max-width: 1500px;
   display: flex;
-  margin: 10rem auto;
-  margin-bottom: 15rem;
+  align-items: center;
   justify-content: space-between;
+  margin: 10rem 20rem;
 }
 
 .how-to-custom img{
@@ -297,14 +296,13 @@ a {
 }
 
 .categories-section { 
-  margin: 100px 30px;
+  margin: 100px auto;
 }
 
-.categories-imgs-1, .categories-imgs-2 {
-  max-width: 1300px;
-  margin: 0 auto;
+.categories-imgs {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 10rem;
   margin-top: 50px;
 }
 
@@ -340,7 +338,7 @@ a {
 .img-img {
   display: flex;
   position: relative;
-  width: 580px;
+  width: 550px;
   align-items: center; 
   justify-content: center;
 }
@@ -350,26 +348,39 @@ a {
 }
 
 .testimony-section {
-  margin: 0 30px 50px 30px;
+  margin: 50px auto;
 }
 
 .testimony {
-  max-width: 1850px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 10rem;
   margin-top: 80px;
+}
+
+.testtimony-img {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.testtimony-img img {
+  width: 48%;
 }
 
 .testimony-p {
   display: flex;
   align-items: center;
   max-width: 600px;
-  max-height: 300px;
-  margin-right: 10px;
+  max-height: 350px;
+  margin-left: 20px;
   border: 2px solid #A8DCEC;
   border-radius: 10px;
+}
+
+.testimony-p .img-p {
+  margin: 40px 20px;
 }
 
 .testimony-p img {
@@ -377,18 +388,8 @@ a {
   margin-bottom: 30px;
 }
 
-.testimony-p div div {
+.testimony-p .div-p {
   margin-top: 30px;
-}
-
-.testtimony-img {
-  display: flex;
-  justify-content: space-between;
-  width: 1200px;
-}
-
-.testtimony-img img {
-  width: 48%;
 }
 
 .testimony p {
