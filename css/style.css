@@ -30,6 +30,22 @@ a {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {  
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {   
+  background: #CCC;
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  border-radius: 9px;
+  height: 250px;
+}
+
+::-webkit-scrollbar-track {   
+  margin: 5px;
+}
+
 .grid-layout {
   display: grid;
   grid-template-columns: 1fr minmax(300px, 1200px) 1fr;
